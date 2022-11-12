@@ -1,0 +1,61 @@
+body {
+    background-color:#E6E6FA;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color:#FFFFE0;
+    height: 215px;
+    width: 500px;
+}
+
+img {
+    display:flex;
+    height: 150px;
+    width: 200px;
+}
+
+.price {
+    background-color: #A9A9A9;
+    margin-left:20px;
+    padding:10px;
+}
+
+.price:active {
+    background-color: #FFE4C4;
+}
+
+.ques {
+    background-color: #FFFFE0;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.ques:hover {
+    background-color: #FF00FF;
+}
+
+ul{
+    display:flex;
+}
+
+li{
+    list-style-type:none;
+    display:flex;
+    margin:0;
+}
+
+.pos {
+    display: flex;
+}
+
+.subpos{
+    display:block;
+}
+
+.btn {
+    margin-top:40px;
+}
